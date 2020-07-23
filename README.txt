@@ -1,0 +1,1 @@
+Scrip de automatizacion para crear un repositorio local y remoto y conectarlos

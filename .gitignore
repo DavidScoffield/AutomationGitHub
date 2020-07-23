@@ -1,0 +1,5 @@
+/.vscode
+steps.txt
+debug.log
+personal_data.py
+__pycache__
