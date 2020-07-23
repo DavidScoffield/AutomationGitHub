@@ -41,8 +41,7 @@ def create_github_repository():
     browser.find_element_by_xpath('//*[@id="repository_name"]').send_keys(folder_name)
     browser.find_element_by_xpath('//*[@id="new_repository"]/div[6]/button').submit()
 
-    # copy the git remote
-    # remote = browser.find_element_by_xpath('//*[@id="empty-setup-push-repo-echo"]/span[1]').text
+    # quit browser
     browser.quit()
 
 
